@@ -49,11 +49,11 @@ class Resume extends Component {
       <section id="resume">
 
       <div className="row education">
-         <div className="three columns header-col">
+         <div className="two columns header-col">
             <h1><span>Education</span></h1>
          </div>
 
-         <div className="nine columns main-col">
+         <div className="ten columns main-col">
             <div className="row item">
                <div className="twelve columns">
                  {education}
@@ -63,20 +63,20 @@ class Resume extends Component {
       </div>
 
           <div className="row work">
-              <div className="three columns header-col">
+              <div className="two columns header-col">
                   <h1><span>Publications</span></h1>
               </div>
-              <div className="nine columns main-col">
+              <div className="ten columns main-col">
                   {publications}
               </div>
           </div>
 
 
       <div className="row work">
-         <div className="three columns header-col">
+         <div className="two columns header-col">
             <h1><span>Experience</span></h1>
          </div>
-         <div className="nine columns">
+         <div className="ten columns">
           {work}
         </div>
     </div>
@@ -84,10 +84,10 @@ class Resume extends Component {
 
 
     <div className="row skill">
-         <div className="three columns header-col">
+         <div className="two columns header-col">
             <h1><span>Skills</span></h1>
          </div>
-         <div className="nine columns main-col">
+         <div className="ten columns main-col">
 				<div className="bars">
 				   <ul className="skills">
 					  {skills}
@@ -97,10 +97,10 @@ class Resume extends Component {
       </div>
 
           <div className="row education">
-              <div className="three columns header-col">
+              <div className="two columns header-col">
                   <h1><span>Award</span></h1>
               </div>
-              <div className="nine columns main-col">
+              <div className="ten columns main-col">
                   <div className="row item">
                       <ul className="twelve columns">
                           {awards}
