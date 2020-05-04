@@ -8,29 +8,44 @@ class Resume extends Component {
       var education = this.props.data.education.map(function(education){
         return <div key={education.school}><h3>{education.school}</h3>
         <p className="info">{education.degree} <span>&bull;</span><em className="date">{education.graduated}</em></p>
-        <p>{education.description}</p></div>
+        </div>
       })
+
+      //var workbullet = this.props.data.work
       var work = this.props.data.work.map(function(work){
         return <div key={work.company}><h3>{work.company}</h3>
             <p className="info">{work.title}<span>&bull;</span> <em className="date">{work.years}</em></p>
-            <p>{work.description}</p>
+            <ul>
+                {work.description.split(";").map(item =>
+                    <li key={item.index}>
+                        {item}
+                    </li>)}
+            </ul>
         </div>
       })
       var skills = this.props.data.skills.map(function(skills){
         var className = 'bar-expand '+skills.name.toLowerCase();
         return <li key={skills.name}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>
       })
+
+        var publications = this.props.data.publications.map(function(publications){
+            return <div key={publications.title}>
+                <h3><a href={publications.link}>{publications.title}</a></h3>
+                <p className="info">{publications.authors}</p>
+                <p>{publications.description}</p>
+            </div>
+        })
     }
 
     return (
       <section id="resume">
 
       <div className="row education">
-         <div className="three columns header-col">
+         <div className="two columns header-col">
             <h1><span>Education</span></h1>
          </div>
 
-         <div className="nine columns main-col">
+         <div className="ten columns main-col">
             <div className="row item">
                <div className="twelve columns">
                  {education}
@@ -39,27 +54,36 @@ class Resume extends Component {
          </div>
       </div>
 
+          <div className="row work">
+              <div className="two columns header-col">
+                  <h1><span>Publications</span></h1>
+              </div>
+              <div className="ten columns main-col">
+                  {publications}
+              </div>
+          </div>
+
 
       <div className="row work">
-
-         <div className="three columns header-col">
-            <h1><span>Work</span></h1>
+         <div className="two columns header-col">
+            <h1><span>Experience</span></h1>
          </div>
-
-         <div className="nine columns main-col">
+         <div className="ten columns">
           {work}
         </div>
     </div>
 
 
 
-      <div className="row skill">
 
-         <div className="three columns header-col">
+
+ {/*     <div className="row skill">
+
+         <div className="two columns header-col">
             <h1><span>Skills</span></h1>
          </div>
 
-         <div className="nine columns main-col">
+         <div className="ten columns main-col">
 
             <p>{skillmessage}
             </p>
@@ -70,7 +94,7 @@ class Resume extends Component {
 					</ul>
 				</div>
 			</div>
-      </div>
+      </div>*/}
    </section>
     );
   }

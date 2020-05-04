@@ -1,18 +1,18 @@
 {
   "main": {
-    "name":"Tim Baker",
-    "occupation":"(Your Occupation Here)",
+    "name":"RUI WANG",
+    "occupation":"(Machine Learning PhD student)",
     "description":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
     "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "bio":"I am a first-year PhD student in Computer Science from Khoury College at Northeastern University, advised by Prof. Rose Yu. I received my Bachelor degree of Science in Applied Mathematics from Huazhong University of Science and Technology. My research interests include spatiotemporal learning and the physics-informed deep learning.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
+    "email": "wang.rui4@northeastern.edu",
     "phone": "555-555-5555",
     "address":{
-      "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+      "street":"(335 Huntington Avenue)",
+      "city":"(Boston)",
+      "state":"(MA)",
+      "zip": "(02115)"
     },
     "website": "http://www.timbakerdev.com",
     "resumedownload":"http://timbakerdev.com",
@@ -37,20 +37,11 @@
         "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
         "className":"fa fa-linkedin"
       },
-      {
-        "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
-        "className":"fa fa-instagram"
-      },
+
       {
         "name":"github",
         "url":"http://github.com/tbakerx",
         "className":"fa fa-github"
-      },
-      {
-        "name":"skype",
-        "url":"http://skype.com",
-        "className":"fa fa-skype"
       }
     ]
   },
@@ -58,30 +49,98 @@
     "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
     "education":[
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2007",
+        "school":"Northeastern University",
+        "degree":"PhD in Computer Science",
+        "graduated":"2020 - Present",
         "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
       },
       {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2003",
+        "school":"Northeastern University",
+        "degree":"Master in Data Science",
+        "graduated":"2017 - 2019",
+        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      },
+      {
+        "school":"University of California, Berkeley",
+        "degree":"Exchange Student",
+        "graduated":"2016",
+        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      },
+      {
+        "school":"Huazhong Uni. of Sci. and Tech.",
+        "degree":"Bachelor in Applied Mathematics",
+        "graduated":"2013 - 2017",
         "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
       }
     ],
-    "work":[
+    "work": [
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2010 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"Lawrence Berkeley National Laboratory, Berkeley, CA",
+        "title":"Machine Learning Research Intern",
+        "years":"2019.05 - 2019.08",
+        "description": "Researched the challenging task of spatiotemporal modeling of velocity fields for nonlinear turbulent flows;Developed a novel hybrid model, TF-net, that unifies RANS-LES coupling with custom-designed neural networks"
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2007 - February 2010",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"Northeastern University, Boston, MA",
+        "title":"Research Assistant",
+        "years":"2019.01 - 2019.04",
+        "description":"Studied the applications of deep sequence models on long-term forecast of patients’ Aortic Pressure;Conducted comprehensive experiments and evaluations with various deep sequence models, including Vector Regression, Recurrent Seq2Seq, Temporal CNN, Transformer, Multiscale NN, etc."
+      },
+      {
+        "company":"Northeastern University, Boston, MA",
+        "title":"Teaching Assistant",
+        "years":"2019.01 - 2019.04",
+        "description":"Organized weekly paper discussion and assisted students with implementing deep learning models;Special Topics in Artificial Intelligence"
+      },
+      {
+        "company":"Abiomed Inc., Danvers, MA",
+        "title": "Data Science Co-op",
+        "years": "2018.07 - 2018.12",
+        "description":"Conducted research on forecasting physiological parameters with various deep sequence models;Applied Bidirectional LSTMs innovatively to the estimation of left ventricular volume time series;Created Healthy Heart Index based on SVM for predicting patients’ survival probabilities in the next hour;Best Co-op Prize"
+      },
+      {
+        "company": "Northeastern University, Boston, MA",
+        "title": "Content Editor",
+        "years": "2018.09 - 2018.12",
+        "description": "Edited and reviewed all content related to machine learning theories;Game Data Science"
+      },
+      {
+        "company": "Northeastern University, Boston, MA",
+        "title": "Research Assistant",
+        "years": "2018.04 - 2018.11",
+        "description": "Proposed a new scheme for systematically evaluating TRACE (Teacher Rating and Course Evaluation) data;Applied Binomial Regression Model and Likelihood Ratio test to finding the comparison group for each section;Evaluated each section based on the Beta-Binomial model and proportions of 5’s and within its comparison group"
+      }
+    ],
+    "publications": [
+      {
+        "title": "Incorporating Symmetry into Deep Dynamics Models for Improved Generalization",
+        "link": "https://arxiv.org/abs/2002.03061",
+        "authors": "Rui Wang*, Robin Walters*, Rose Yu",
+        "description": "Under review"
+      },
+      {
+        "title": "Aortic Pressure Forecasting with Deep Sequence Learning",
+        "link": "",
+        "authors": "Rui Wang, Eliza Huang, Uma Chandrasekaran, Rose Yu",
+        "description": "Under review"
+      },
+      {
+        "title": "Towards Physics-informed Deep Learning for Turbulent Flow Prediction",
+        "link": "https://arxiv.org/abs/2002.03061",
+        "authors": "Rui Wang, Karthik Kashinath, Mustafa Mustafa, Adrian Albert, Rose Yu",
+        "description": "Under review"
+      },
+      {
+        "title": "Towards Physics-informed Deep Learning for Spatiotemporal Modeling of Turbulent Flows",
+        "link": "https://arxiv.org/abs/2002.03061",
+        "authors": "Rui Wang, Karthik Kashinath, Mustafa Mustafa, Adrian Albert, Rose Yu",
+        "description": "Climate Informatics 2019"
+      },
+      {
+        "title": "Prediction of Alzheimer's disease-associated genes by integration of GWAS summary data and expression data",
+        "link": "https://arxiv.org/abs/2002.03061",
+        "authors": "Sicheng Hao*, Rui Wang*, Yu Zhang, Hui Zhan",
+        "description": "Frontiers in Genetics 2018"
       }
     ],
     "skills":[
@@ -156,8 +215,8 @@
         "user":"Kareem Abdul Jabbar"
       },
       {
-        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user":"Steve Wozniak... impersonator"
+        "text":"That Rui Wang must be one of the most brilliant researcher I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "user":"Steve Wozniak"
       }
     ]
   }
