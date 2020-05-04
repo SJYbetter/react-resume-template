@@ -2,12 +2,12 @@
   "main": {
     "name":"RUI WANG",
     "occupation":"(Machine Learning PhD student)",
-    "description":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
-    "image":"profilepic.jpg",
+    "description":"I am a first-year PhD student in Computer Science from Khoury College at Northeastern University, advised by Prof. Rose Yu.",
+    "image":"ruiwang.jpeg",
     "bio":"I am a first-year PhD student in Computer Science from Khoury College at Northeastern University, advised by Prof. Rose Yu. I received my Bachelor degree of Science in Applied Mathematics from Huazhong University of Science and Technology. My research interests include spatiotemporal learning and the physics-informed deep learning.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "wang.rui4@northeastern.edu",
-    "phone": "555-555-5555",
+    "phone": "857-869-2101",
     "address":{
       "street":"(335 Huntington Avenue)",
       "city":"(Boston)",
@@ -18,29 +18,24 @@
     "resumedownload":"http://timbakerdev.com",
     "social":[
       {
-        "name":"facebook",
-        "url":"http://facebook.com/tim.baker.906",
-        "className":"fa fa-facebook"
-      },
-      {
         "name":"twitter",
-        "url":"http://twitter.com",
+        "url":"https://twitter.com/Rayw1521",
         "className":"fa fa-twitter"
       },
       {
         "name":"google-plus",
-        "url":"http://googleplus.com/tbakerx",
+        "url":"https://scholar.google.com/citations?user=JXG5QZwAAAAJ&hl=en",
         "className":"fa fa-google-plus"
       },
       {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url":"https://www.linkedin.com/in/ray-wang-41a398149/",
         "className":"fa fa-linkedin"
       },
 
       {
         "name":"github",
-        "url":"http://github.com/tbakerx",
+        "url":"https://github.com/Rui1521",
         "className":"fa fa-github"
       }
     ]
@@ -51,7 +46,7 @@
       {
         "school":"Northeastern University",
         "degree":"PhD in Computer Science",
-        "graduated":"2020 - Present",
+        "graduated":"2019 - Present",
         "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
       },
       {
@@ -126,52 +121,58 @@
       },
       {
         "title": "Towards Physics-informed Deep Learning for Turbulent Flow Prediction",
-        "link": "https://arxiv.org/abs/2002.03061",
+        "link": "https://arxiv.org/abs/1911.08655",
         "authors": "Rui Wang, Karthik Kashinath, Mustafa Mustafa, Adrian Albert, Rose Yu",
         "description": "Under review"
       },
       {
         "title": "Towards Physics-informed Deep Learning for Spatiotemporal Modeling of Turbulent Flows",
-        "link": "https://arxiv.org/abs/2002.03061",
+        "link": "",
         "authors": "Rui Wang, Karthik Kashinath, Mustafa Mustafa, Adrian Albert, Rose Yu",
         "description": "Climate Informatics 2019"
       },
       {
         "title": "Prediction of Alzheimer's disease-associated genes by integration of GWAS summary data and expression data",
-        "link": "https://arxiv.org/abs/2002.03061",
+        "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6330278",
         "authors": "Sicheng Hao*, Rui Wang*, Yu Zhang, Hui Zhan",
         "description": "Frontiers in Genetics 2018"
       }
     ],
     "skills":[
       {
-        "name":"Git",
-        "level":"60%"
+        "name":"Python & Pytorch",
+        "level":"99%"
       },
       {
-        "name":"Illustrator",
-        "level":"55%"
-      },
-      {
-        "name":"ReactJs",
-        "level":"50%"
-      },
-      {
-        "name":"CSS",
+        "name":"Tensor Flow & Keras",
         "level":"90%"
       },
       {
-        "name":"HTML5",
-        "level":"80%"
+        "name":"C++",
+        "level":"70%"
       },
       {
-        "name":"VueJs",
+        "name":"C#",
+        "level":"70%"
+      },
+      {
+        "name":"C",
+        "level":"70%"
+      },
+      {
+        "name":"JavaScript",
         "level":"50%"
       },
       {
-        "name":"MongoDB",
-        "level":"80%"
+        "name":"Matlab",
+        "level":"50%"
       }
+    ],
+    "awards": [
+      {"title": "Graduate Fellowship", "years": "2019"},
+      {"title": "Outstanding Graduate", "years": "2017"},
+      {"title": "Scholarship for Outstanding Learning", "years": "2014 - 2017"},
+      {"title": "National Scholarship", "years": "2014"}
     ]
   },
   "portfolio":{
@@ -208,6 +209,7 @@
       }
     ]
   },
+
   "testimonials":{
     "testimonials":[
       {
